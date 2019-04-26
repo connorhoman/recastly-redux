@@ -11,7 +11,7 @@ var initialState = {
 }
 
 
-var store = createStore(rootReducer, exampleVideoData, applyMiddleware(thunk));
+var store = createStore(rootReducer, initialState, applyMiddleware(thunk));
 
 export default store;
 

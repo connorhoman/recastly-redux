@@ -5,7 +5,8 @@ import videoList from './videoList.js';
 
 var rootReducer = combineReducers(
     {currentVideo, 
-        videoList});
+        videoList}
+);
 
 
 //TODO: define the root reducer for this app
