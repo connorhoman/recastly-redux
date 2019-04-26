@@ -4,8 +4,8 @@ import videoList from './videoList.js';
 
 
 var rootReducer = combineReducers(
-    {currentVideo, 
-        videoList}
+    {currentVideo: currentVideo, 
+        videoList: videoList}
 );
 
 
